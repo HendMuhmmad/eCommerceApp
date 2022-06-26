@@ -51,7 +51,7 @@ public class UserController {
 		user.setUsername(createUserRequest.getUsername());
 		String salt = createSalt();
 		user.setSalt(salt);
-		if(createUserRequest.getPassword().length() < 8 && !createUserRequest.getPassword().equals(createUserRequest.getConfirmPassword())) {
+		if(createUserRequest.getPassword().length() < 8 || !createUserRequest.getPassword().equals(createUserRequest.getConfirmPassword())) {
 			return ResponseEntity.badRequest().build();
 		}
 		user.setPassword(bCryptPasswordEncoder.encode(createUserRequest.getPassword()+salt));
