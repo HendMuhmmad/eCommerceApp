@@ -55,4 +55,14 @@ public class CartControllerTest {
 		ResponseEntity<Cart> response = cartController.addTocart(cr);
 		assertEquals(200, response.getStatusCodeValue());
 	}
+	
+	@Test
+	public void removeFromCart() {
+		ModifyCartRequest cr = new ModifyCartRequest();
+		cr.setUsername("testUser");
+		cr.setQuantity(3);
+		cr.setItemId(1);
+		ResponseEntity<Cart> response = cartController.removeFromcart(cr);
+		assertEquals(200, response.getStatusCodeValue());
+	}
 }

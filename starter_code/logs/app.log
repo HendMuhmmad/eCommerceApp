@@ -132,3 +132,49 @@ org.springframework.security.authentication.BadCredentialsException: Bad credent
 2022-06-28 21:04:21,087 INFO c.e.d.c.OrderController [http-nio-8080-exec-1] Order for user hend created sucessfully
 2022-06-28 21:04:40,335 INFO c.e.d.c.OrderController [http-nio-8080-exec-2] Order for user azza created sucessfully
 2022-06-28 21:04:51,276 INFO c.e.d.c.OrderController [http-nio-8080-exec-3] Order for user rana created sucessfully
+2022-06-28 21:21:11,709 INFO c.e.d.c.UserController [main] Creating User: test
+2022-06-28 21:21:11,894 ERROR c.e.d.c.UserController [main] Password entered for new user 'test' doesn't match the requirments
+2022-06-28 21:21:11,927 INFO c.e.d.c.UserController [main] Fetching User: test
+2022-06-28 21:21:11,928 INFO c.e.d.c.UserController [main] Creating User: test
+2022-06-28 21:21:11,929 ERROR c.e.d.c.UserController [main] Password entered for new user 'test' doesn't match the requirments
+2022-06-28 21:21:11,929 INFO c.e.d.c.UserController [main] Creating User: test
+2022-06-28 21:21:11,930 INFO c.e.d.c.UserController [main] User: test created sucessfully
+2022-06-28 21:21:11,930 ERROR c.e.d.c.UserController [main] User: aa not found !!
+2022-06-28 21:21:11,968 INFO c.e.d.c.CartController [main] Adding items to user testUser cart
+2022-06-28 21:21:11,971 INFO c.e.d.c.CartController [main] Items were added to user testUser cart successfully
+2022-06-28 21:21:11,972 ERROR c.e.d.c.ItemController [main] No items with name test were found!
+2022-06-28 21:21:11,973 INFO c.e.d.c.ItemController [main] Items with name testItem1 were fetched successfully
+2022-06-28 21:21:52,473 INFO c.e.d.c.UserController [main] Creating User: test
+2022-06-28 21:21:52,696 ERROR c.e.d.c.UserController [main] Password entered for new user 'test' doesn't match the requirments
+2022-06-28 21:21:52,735 INFO c.e.d.c.UserController [main] Fetching User: test
+2022-06-28 21:21:52,736 INFO c.e.d.c.UserController [main] Creating User: test
+2022-06-28 21:21:52,736 ERROR c.e.d.c.UserController [main] Password entered for new user 'test' doesn't match the requirments
+2022-06-28 21:21:52,737 INFO c.e.d.c.UserController [main] Creating User: test
+2022-06-28 21:21:52,738 INFO c.e.d.c.UserController [main] User: test created sucessfully
+2022-06-28 21:21:52,739 ERROR c.e.d.c.UserController [main] User: aa not found !!
+2022-06-28 21:21:52,789 INFO c.e.d.c.CartController [main] Adding items to user testUser cart
+2022-06-28 21:21:52,793 INFO c.e.d.c.CartController [main] Items were added to user testUser cart successfully
+2022-06-28 21:21:52,795 ERROR c.e.d.c.ItemController [main] No items with name test were found!
+2022-06-28 21:21:52,796 INFO c.e.d.c.ItemController [main] Items with name testItem1 were fetched successfully
+2022-06-28 21:28:03,858 INFO c.e.d.c.CartController [main] Adding items to user testUser cart
+2022-06-28 21:28:03,896 INFO c.e.d.c.CartController [main] Items were added to user testUser cart successfully
+2022-06-28 21:28:03,915 INFO c.e.d.c.CartController [main] Removing items from user testUser cart
+2022-06-28 21:28:03,916 INFO c.e.d.c.CartController [main] Items were removed from user testUser cart successfully
+2022-06-28 21:28:22,609 INFO c.e.d.c.CartController [main] Adding items to user testUser cart
+2022-06-28 21:28:22,629 INFO c.e.d.c.CartController [main] Items were added to user testUser cart successfully
+2022-06-28 21:28:22,660 INFO c.e.d.c.CartController [main] Removing items from user testUser cart
+2022-06-28 21:28:22,662 INFO c.e.d.c.CartController [main] Items were removed from user testUser cart successfully
+2022-06-28 21:29:06,020 INFO c.e.d.c.UserController [main] Creating User: test
+2022-06-28 21:29:06,269 ERROR c.e.d.c.UserController [main] Password entered for new user 'test' doesn't match the requirments
+2022-06-28 21:29:06,307 INFO c.e.d.c.UserController [main] Fetching User: test
+2022-06-28 21:29:06,308 INFO c.e.d.c.UserController [main] Creating User: test
+2022-06-28 21:29:06,308 ERROR c.e.d.c.UserController [main] Password entered for new user 'test' doesn't match the requirments
+2022-06-28 21:29:06,309 INFO c.e.d.c.UserController [main] Creating User: test
+2022-06-28 21:29:06,309 INFO c.e.d.c.UserController [main] User: test created sucessfully
+2022-06-28 21:29:06,310 ERROR c.e.d.c.UserController [main] User: aa not found !!
+2022-06-28 21:29:06,356 INFO c.e.d.c.CartController [main] Adding items to user testUser cart
+2022-06-28 21:29:06,358 INFO c.e.d.c.CartController [main] Items were added to user testUser cart successfully
+2022-06-28 21:29:06,359 INFO c.e.d.c.CartController [main] Removing items from user testUser cart
+2022-06-28 21:29:06,360 INFO c.e.d.c.CartController [main] Items were removed from user testUser cart successfully
+2022-06-28 21:29:06,361 ERROR c.e.d.c.ItemController [main] No items with name test were found!
+2022-06-28 21:29:06,362 INFO c.e.d.c.ItemController [main] Items with name testItem1 were fetched successfully
