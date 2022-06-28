@@ -1,19 +1,11 @@
-2022-06-27 03:13:57,612 INFO c.e.d.SareetaApplication [main] Starting SareetaApplication on LAPTOP-EOM7M1V3 with PID 28260 (started by HRMS1 in C:\Users\HRMS1\OneDrive\jwdnd\course 4\workspace\P04-eCommerce Application\starter_code)
-2022-06-27 03:13:57,619 DEBUG c.e.d.SareetaApplication [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
-2022-06-27 03:13:57,619 INFO c.e.d.SareetaApplication [main] No active profile set, falling back to default profiles: default
-2022-06-27 03:14:03,178 INFO c.e.d.SareetaApplication [main] Started SareetaApplication in 5.9 seconds (JVM running for 7.307)
-2022-06-27 03:18:21,065 INFO c.e.d.SareetaApplication [main] Starting SareetaApplication on LAPTOP-EOM7M1V3 with PID 12732 (started by HRMS1 in C:\Users\HRMS1\OneDrive\jwdnd\course 4\workspace\P04-eCommerce Application\starter_code)
-2022-06-27 03:18:21,070 DEBUG c.e.d.SareetaApplication [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
-2022-06-27 03:18:21,071 INFO c.e.d.SareetaApplication [main] No active profile set, falling back to default profiles: default
-2022-06-27 03:18:26,185 INFO c.e.d.SareetaApplication [main] Started SareetaApplication in 5.458 seconds (JVM running for 6.909)
-2022-06-27 03:18:38,509 INFO c.e.d.c.UserController [http-nio-8080-exec-1] Info Message Logged !!!
-2022-06-27 03:20:42,357 INFO c.e.d.SareetaApplication [main] Starting SareetaApplication on LAPTOP-EOM7M1V3 with PID 24800 (started by HRMS1 in C:\Users\HRMS1\OneDrive\jwdnd\course 4\workspace\P04-eCommerce Application\starter_code)
-2022-06-27 03:20:42,407 DEBUG c.e.d.SareetaApplication [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
-2022-06-27 03:20:42,408 INFO c.e.d.SareetaApplication [main] No active profile set, falling back to default profiles: default
-2022-06-27 03:20:48,053 INFO c.e.d.SareetaApplication [main] Started SareetaApplication in 6.157 seconds (JVM running for 7.567)
-2022-06-27 03:20:53,999 INFO c.e.d.c.UserController [http-nio-8080-exec-1] Info Message Logged !!!
-2022-06-27 03:21:01,776 DEBUG c.e.d.s.JWTAuthenticationFilter [http-nio-8080-exec-3] Request is to process authentication
-2022-06-27 03:21:02,619 DEBUG c.e.d.s.JWTAuthenticationFilter [http-nio-8080-exec-3] Authentication request failed: org.springframework.security.authentication.BadCredentialsException: Bad credentials
+2022-06-28 19:38:09,548 INFO c.e.d.SareetaApplication [main] Starting SareetaApplication on LAPTOP-EOM7M1V3 with PID 18592 (started by HRMS1 in C:\Users\HRMS1\OneDrive\jwdnd\course 4\workspace\P04-eCommerce Application\starter_code)
+2022-06-28 19:38:09,598 DEBUG c.e.d.SareetaApplication [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2022-06-28 19:38:09,599 INFO c.e.d.SareetaApplication [main] No active profile set, falling back to default profiles: default
+2022-06-28 19:38:24,814 INFO c.e.d.SareetaApplication [main] Started SareetaApplication in 16.333 seconds (JVM running for 19.378)
+2022-06-28 19:38:45,079 INFO c.e.d.c.UserController [http-nio-8080-exec-2] Creating User: rana
+2022-06-28 19:38:45,321 INFO c.e.d.c.UserController [http-nio-8080-exec-2] User: rana created sucessfully
+2022-06-28 19:38:55,166 DEBUG c.e.d.s.JWTAuthenticationFilter [http-nio-8080-exec-3] Request is to process authentication
+2022-06-28 19:38:56,113 DEBUG c.e.d.s.JWTAuthenticationFilter [http-nio-8080-exec-3] Authentication request failed: org.springframework.security.authentication.BadCredentialsException: Bad credentials
 org.springframework.security.authentication.BadCredentialsException: Bad credentials
 	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.additionalAuthenticationChecks(DaoAuthenticationProvider.java:93) ~[spring-security-core-5.1.5.RELEASE.jar:5.1.5.RELEASE]
 	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:166) ~[spring-security-core-5.1.5.RELEASE.jar:5.1.5.RELEASE]
@@ -75,16 +67,68 @@ org.springframework.security.authentication.BadCredentialsException: Bad credent
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_321]
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.19.jar:9.0.19]
 	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_321]
-2022-06-27 03:21:02,636 DEBUG c.e.d.s.JWTAuthenticationFilter [http-nio-8080-exec-3] Updated SecurityContextHolder to contain null Authentication
-2022-06-27 03:21:02,636 DEBUG c.e.d.s.JWTAuthenticationFilter [http-nio-8080-exec-3] Delegating to authentication failure handler org.springframework.security.web.authentication.SimpleUrlAuthenticationFailureHandler@6edb845f
-2022-06-27 03:21:07,592 DEBUG c.e.d.s.JWTAuthenticationFilter [http-nio-8080-exec-4] Request is to process authentication
-2022-06-27 03:22:12,862 INFO c.e.d.c.UserController [main] Info Message Logged !!!
-2022-06-27 14:30:56,416 INFO c.e.d.SareetaApplication [main] Starting SareetaApplication on LAPTOP-EOM7M1V3 with PID 15188 (started by HRMS1 in C:\Users\HRMS1\OneDrive\jwdnd\course 4\workspace\P04-eCommerce Application\starter_code)
-2022-06-27 14:30:56,421 DEBUG c.e.d.SareetaApplication [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
-2022-06-27 14:30:56,421 INFO c.e.d.SareetaApplication [main] No active profile set, falling back to default profiles: default
-2022-06-27 14:30:59,859 INFO c.e.d.SareetaApplication [main] Started SareetaApplication in 3.688 seconds (JVM running for 4.448)
-2022-06-27 14:31:21,887 INFO c.e.d.c.UserController [http-nio-8080-exec-1] Creating User: rana
-2022-06-27 14:31:22,002 INFO c.e.d.c.UserController [http-nio-8080-exec-1] User: rana created sucessfully
-2022-06-27 14:31:26,380 DEBUG c.e.d.s.JWTAuthenticationFilter [http-nio-8080-exec-3] Request is to process authentication
-2022-06-27 14:31:36,179 INFO c.e.d.c.CartController [http-nio-8080-exec-4] Adding items to user rana cart
-2022-06-27 14:31:36,198 INFO c.e.d.c.CartController [http-nio-8080-exec-4] Items were added to user rana cart successfully
+2022-06-28 19:38:56,160 DEBUG c.e.d.s.JWTAuthenticationFilter [http-nio-8080-exec-3] Updated SecurityContextHolder to contain null Authentication
+2022-06-28 19:38:56,160 DEBUG c.e.d.s.JWTAuthenticationFilter [http-nio-8080-exec-3] Delegating to authentication failure handler org.springframework.security.web.authentication.SimpleUrlAuthenticationFailureHandler@5b1d637b
+2022-06-28 19:39:01,285 DEBUG c.e.d.s.JWTAuthenticationFilter [http-nio-8080-exec-4] Request is to process authentication
+2022-06-28 19:39:30,068 INFO c.e.d.c.CartController [http-nio-8080-exec-5] Adding items to user rana cart
+2022-06-28 19:39:30,240 INFO c.e.d.c.CartController [http-nio-8080-exec-5] Items were added to user rana cart successfully
+2022-06-28 19:39:38,677 INFO c.e.d.c.CartController [http-nio-8080-exec-8] Adding items to user ran cart
+2022-06-28 19:39:38,679 ERROR c.e.d.c.CartController [http-nio-8080-exec-8] Username: ran not found!!
+2022-06-28 19:40:12,165 INFO c.e.d.c.CartController [http-nio-8080-exec-9] Adding items to user rana cart
+2022-06-28 19:40:12,174 INFO c.e.d.c.CartController [http-nio-8080-exec-9] Items were added to user rana cart successfully
+2022-06-28 19:40:36,949 INFO c.e.d.c.OrderController [http-nio-8080-exec-1] Order for user rana created sucessfully
+2022-06-28 19:40:50,028 INFO c.e.d.c.OrderController [http-nio-8080-exec-2] orders for user rana fetched successfully
+2022-06-28 19:44:34,291 INFO c.e.d.c.UserController [http-nio-8080-exec-7] Creating User: amera
+2022-06-28 19:44:34,360 INFO c.e.d.c.UserController [http-nio-8080-exec-7] User: amera created sucessfully
+2022-06-28 19:44:42,938 DEBUG c.e.d.s.JWTAuthenticationFilter [http-nio-8080-exec-5] Request is to process authentication
+2022-06-28 19:45:01,783 INFO c.e.d.c.CartController [http-nio-8080-exec-8] Adding items to user amera cart
+2022-06-28 19:45:01,788 INFO c.e.d.c.CartController [http-nio-8080-exec-8] Items were added to user amera cart successfully
+2022-06-28 19:45:21,260 INFO c.e.d.c.CartController [http-nio-8080-exec-6] Removing items from user amera cart
+2022-06-28 19:45:21,269 INFO c.e.d.c.CartController [http-nio-8080-exec-6] Items were removed from user amera cart successfully
+2022-06-28 19:45:40,964 INFO c.e.d.c.OrderController [http-nio-8080-exec-9] Order for user amera created sucessfully
+2022-06-28 19:45:51,310 INFO c.e.d.c.OrderController [http-nio-8080-exec-10] orders for user amera fetched successfully
+2022-06-28 19:46:16,417 ERROR c.e.d.c.OrderController [http-nio-8080-exec-1] Username: aa not found!!
+2022-06-28 19:46:25,625 ERROR c.e.d.c.OrderController [http-nio-8080-exec-2] Username: aaa not found!!
+2022-06-28 19:46:39,046 INFO c.e.d.c.CartController [http-nio-8080-exec-3] Adding items to user amera cart
+2022-06-28 19:46:39,048 ERROR c.e.d.c.CartController [http-nio-8080-exec-3] Items with id 15 not found
+2022-06-28 19:48:39,225 INFO c.e.d.c.UserController [http-nio-8080-exec-5] Creating User: hend
+2022-06-28 19:48:39,292 INFO c.e.d.c.UserController [http-nio-8080-exec-5] User: hend created sucessfully
+2022-06-28 19:48:48,530 DEBUG c.e.d.s.JWTAuthenticationFilter [http-nio-8080-exec-8] Request is to process authentication
+2022-06-28 19:48:59,384 INFO c.e.d.c.CartController [http-nio-8080-exec-6] Adding items to user hend cart
+2022-06-28 19:48:59,387 ERROR c.e.d.c.CartController [http-nio-8080-exec-6] Items with id 15 not found
+2022-06-28 19:49:04,668 INFO c.e.d.c.CartController [http-nio-8080-exec-9] Adding items to user hend cart
+2022-06-28 19:49:04,672 ERROR c.e.d.c.CartController [http-nio-8080-exec-9] Items with id 3 not found
+2022-06-28 19:49:11,491 INFO c.e.d.c.CartController [http-nio-8080-exec-10] Adding items to user hend cart
+2022-06-28 19:49:11,496 INFO c.e.d.c.CartController [http-nio-8080-exec-10] Items were added to user hend cart successfully
+2022-06-28 19:49:19,716 INFO c.e.d.c.OrderController [http-nio-8080-exec-1] Order for user hend created sucessfully
+2022-06-28 19:49:26,635 INFO c.e.d.c.OrderController [http-nio-8080-exec-2] orders for user hend fetched successfully
+2022-06-28 19:49:39,193 INFO c.e.d.c.CartController [http-nio-8080-exec-3] Adding items to user hend cart
+2022-06-28 19:49:39,199 INFO c.e.d.c.CartController [http-nio-8080-exec-3] Items were added to user hend cart successfully
+2022-06-28 19:49:44,562 INFO c.e.d.c.OrderController [http-nio-8080-exec-4] Order for user hend created sucessfully
+2022-06-28 19:49:49,666 INFO c.e.d.c.OrderController [http-nio-8080-exec-7] orders for user hend fetched successfully
+2022-06-28 20:38:04,126 INFO c.e.d.c.UserController [http-nio-8080-exec-6] Creating User: salma
+2022-06-28 20:38:04,193 INFO c.e.d.c.UserController [http-nio-8080-exec-6] User: salma created sucessfully
+2022-06-28 20:42:32,683 INFO c.e.d.c.UserController [http-nio-8080-exec-1] Creating User: azza
+2022-06-28 20:42:32,752 INFO c.e.d.c.UserController [http-nio-8080-exec-1] User: azza created sucessfully
+2022-06-28 20:42:40,034 INFO c.e.d.c.UserController [http-nio-8080-exec-2] Creating User: ali
+2022-06-28 20:42:40,101 INFO c.e.d.c.UserController [http-nio-8080-exec-2] User: ali created sucessfully
+2022-06-28 20:42:43,800 INFO c.e.d.c.UserController [http-nio-8080-exec-3] Creating User: alia
+2022-06-28 20:42:43,865 INFO c.e.d.c.UserController [http-nio-8080-exec-3] User: alia created sucessfully
+2022-06-28 20:43:53,610 INFO c.e.d.c.UserController [http-nio-8080-exec-5] Creating User: aliaa
+2022-06-28 20:43:53,677 INFO c.e.d.c.UserController [http-nio-8080-exec-5] User: aliaa created sucessfully
+2022-06-28 20:44:22,977 INFO c.e.d.c.UserController [http-nio-8080-exec-8] Creating User: mohamed
+2022-06-28 20:44:23,046 INFO c.e.d.c.UserController [http-nio-8080-exec-8] User: mohamed created sucessfully
+2022-06-28 20:48:20,829 INFO c.e.d.c.UserController [http-nio-8080-exec-9] Creating User: ahmed
+2022-06-28 20:48:20,909 INFO c.e.d.c.UserController [http-nio-8080-exec-9] User: ahmed created sucessfully
+2022-06-28 20:49:46,264 INFO c.e.d.c.UserController [http-nio-8080-exec-3] Creating User: ara
+2022-06-28 20:49:46,331 INFO c.e.d.c.UserController [http-nio-8080-exec-3] User: ara created sucessfully
+2022-06-28 21:03:44,646 DEBUG c.e.d.s.JWTAuthenticationFilter [http-nio-8080-exec-5] Request is to process authentication
+2022-06-28 21:03:53,173 INFO c.e.d.c.CartController [http-nio-8080-exec-8] Adding items to user azza cart
+2022-06-28 21:03:53,178 INFO c.e.d.c.CartController [http-nio-8080-exec-8] Items were added to user azza cart successfully
+2022-06-28 21:03:56,617 INFO c.e.d.c.OrderController [http-nio-8080-exec-6] Order for user hend created sucessfully
+2022-06-28 21:04:09,069 DEBUG c.e.d.s.JWTAuthenticationFilter [http-nio-8080-exec-10] Request is to process authentication
+2022-06-28 21:04:17,982 INFO c.e.d.c.CartController [http-nio-8080-exec-9] Adding items to user hend cart
+2022-06-28 21:04:17,991 INFO c.e.d.c.CartController [http-nio-8080-exec-9] Items were added to user hend cart successfully
+2022-06-28 21:04:21,087 INFO c.e.d.c.OrderController [http-nio-8080-exec-1] Order for user hend created sucessfully
+2022-06-28 21:04:40,335 INFO c.e.d.c.OrderController [http-nio-8080-exec-2] Order for user azza created sucessfully
+2022-06-28 21:04:51,276 INFO c.e.d.c.OrderController [http-nio-8080-exec-3] Order for user rana created sucessfully
